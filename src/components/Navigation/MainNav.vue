@@ -2,7 +2,7 @@
   <header :class="['w-full', 'text-sm', headerHeightClass]">
    <div class="w-full h-16 bg-white">
     <div class="flex flex-nowrap h-full px-8 mx-auto border-b border-solid border-brand-gray-1">
-      <router-link :to="{name: 'Home'}" class="flex items-center h-full text-xl font-bold">RUS Careers</router-link>
+      <router-link :to="{name: 'Home'}" class="flex items-center h-full text-xl font-bold">Job Finder</router-link>
       <nav class="h-full ml-12">
         <ul class="flex h-full p-0 m-0 list-none font-semibold">
           <li class="h-full first:ml-0">
@@ -12,13 +12,7 @@
             <router-link to="/" class="flex items-center h-full py-2.5">Locations</router-link>
           </li>
           <li class="h-full ml-9">
-            <router-link to="/" class="flex items-center h-full py-2.5">Life at RUS Careers</router-link>
-          </li>
-          <li class="h-full ml-9">
             <router-link to="/" class="flex items-center h-full py-2.5">How we hire</router-link>
-          </li>
-          <li class="h-full ml-9">
-            <router-link to="/" class="flex items-center h-full py-2.5">Students</router-link>
           </li>
           <li class="h-full ml-9">
             <router-link :to="{name: 'JobResults'}" class="flex items-center h-full py-2.5">Jobs</router-link>

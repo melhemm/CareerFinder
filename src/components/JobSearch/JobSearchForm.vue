@@ -33,7 +33,7 @@
         />
       </div>
     </div>
-    <ActionButton data-test='form-submit-button' text="Search" class="rounded-r-3xl" />
+    <ActionButton data-test='form-submit-button' text="Search"/>
   </form>
 </template>
 
