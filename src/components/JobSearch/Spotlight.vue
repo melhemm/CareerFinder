@@ -19,7 +19,7 @@ export default {
   setup() {
     const spotlights = ref([])
     const getSpotlights = async() => {
-      const baseUrl = 'http://localhost:3000';
+      const baseUrl = 'https://job-finder-35iy.onrender.com';
       const url = `${baseUrl}/spotlights`;
       const response = await axios.get(url)
       spotlights.value = response.data;
