@@ -1,1 +1,3 @@
-special-vendored-path/* linguist-vendored
+*.es linguist-language=js
+*.es linguist-language=JS
+*.es linguist-language=JAVASCRIPT
